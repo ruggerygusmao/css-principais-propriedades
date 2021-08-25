@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Cantarell&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo{
+    font-family: 'Cantarell', serif;
+    text-transform: uppercase;
+    color: #d13232;
+    text-align: center;
+}
+
+.sub-titulo{
+    background-color: #dcdcdc;
+    color: #383535;
+    min-height: 8vh;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 50px;
+}
+
+.texto-preparo{
+    font-family: 'Barlow', serif;
+    font-size: 1em;
+    line-height:  2.6em;
+}
+
+.texto-ingredientes{
+    font-family: 'Barlow', serif;
+    font-size: 1.3em;
+    line-height:  2.6em;
+}
+
+ol{
+    list-style-type: none;
+}
+
+.number{
+    font-size: 3em;
+    font-family: 'Barlow', serif;
+    margin-right: 1em;
+    color: #383535;
+}
+
+.xicara{
+    text-decoration: line-through;
+}
+
+h2 img{
+    width: 3vw;
+}
+
